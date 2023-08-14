@@ -177,3 +177,19 @@ input[type="submit"]:hover {
 } */
 
 /* Pagina nasa */
+
+.destacado {
+  background-color: #f8f8f8;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.noticias {
+  display: flex;
+
+  margin: 50px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
