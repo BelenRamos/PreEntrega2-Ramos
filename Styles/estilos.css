@@ -24,6 +24,17 @@
 .seccionSocial{
   background-color: #c4a573;
 }
+.seccionSocial h1{
+  color: #000;
+}
+
+.seccionSocial p{
+  color: #252424;
+}
+
+footer p{
+  color: #c5633c;
+}
 
 /* Pagina Contactanos */
 
