@@ -10,6 +10,7 @@
 
 .seccionHeader{
     background-color: #45caac;
+    margin-bottom: 40px;
 }
 
 .section-divider {
@@ -23,6 +24,7 @@
 
 .seccionSocial{
   background-color: #c4a573;
+  margin-top: 50px;
 }
 .seccionSocial h1{
   color: #000;
@@ -49,6 +51,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  margin-bottom: 60px;
 }
 
 article {
@@ -211,3 +214,21 @@ input[type="submit"]:hover {
   max-width: 100%;
     height: auto;
 }
+
+.article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .article {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .video-iframe {
+    max-width: 100%; 
+  }
+}
+
